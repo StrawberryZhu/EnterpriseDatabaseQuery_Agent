@@ -1,0 +1,1 @@
+"""InsightForge Agent application package."""

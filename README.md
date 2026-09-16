@@ -222,21 +222,6 @@ InsightForge MCP：<http://127.0.0.1:8010/mcp>
 - Docker Compose 面向本地开发与演示，不是公网生产部署方案。
 - 接入真实业务库前，必须建立最小权限账号、脱敏、审计、备份和网络访问策略。
 
-## 项目来源与个人实现
-
-本项目基于 [ReinaKaka/QueryMind](https://github.com/ReinaKaka/QueryMind) 的 MIT 许可代码进行学习和二次开发。上游提供了 LangGraph 数据分析 Agent、Northwind 示例、FastAPI、PostgreSQL、Redis、MCP 和基础 Web 界面。
-
-本仓库在此基础上完成了：
-
-- InsightForge Agent 品牌、仓库与单一 Docker 部署整理；
-- 安全配置基线、Alembic 迁移和可回退版本管理；
-- 动态 PostgreSQL 数据源、凭据加密、Schema 快照和 Run 数据源绑定；
-- SQL 白名单、只读连接、超时和结果数量限制；
-- 数据源管理界面及 Supabase 外部数据库验收；
-- 会话自动命名、重命名、置顶和删除；
-- 回归测试、交付文档和故障排查记录。
-
-基线记录见 [项目导入基线](docs/baseline.md)，版本变化见 [CHANGELOG](CHANGELOG.md)。
 
 ## 文档
 
@@ -254,6 +239,4 @@ InsightForge MCP：<http://127.0.0.1:8010/mcp>
 
 视频展示动态 PostgreSQL 数据源接入、自然语言数据分析和会话管理等核心功能。
 
-## License
 
-本项目遵循 [MIT License](LICENSE)，并保留许可文件中的原始版权信息。二次开发内容和项目来源见上文说明。
